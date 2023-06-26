@@ -58,7 +58,7 @@ select {
 }
 
 .description{
-  width: 1000px;
+  /* width: 1000px; */
   margin:10px auto;
   font-weight: bold;
   color: #ffffff;
@@ -175,12 +175,15 @@ select {
   }
 }
 
-@media (min-width:750) and (max-width:1000px){
-  .content{
-    margin: auto;
+@media (min-width:700) and (max-width:1000px){
+
+  .description{
+    margin: 10px;
     margin-bottom: 20px;
   }
+
   .card{
-    margin: auto;
+    width: auto;
+    margin: 20px auto;
   }
 }
