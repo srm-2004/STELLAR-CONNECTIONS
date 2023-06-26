@@ -183,7 +183,6 @@ select {
   }
 
   .card{
-    width: auto;
     margin: 20px auto;
   }
 }
