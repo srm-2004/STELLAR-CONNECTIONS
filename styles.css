@@ -1,0 +1,186 @@
+/* * {
+  margin: 10px;
+  padding: 10px;
+} */
+
+body {
+    background-image:url(assests/wallpaper03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Caprasimo', cursive;
+  font-size: 50px;
+  animation: Heading 4s infinite;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  width: 500px;
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 10px auto 30px;
+}
+
+input {
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  cursor: text;
+  margin:10px;
+  padding: 15px;
+}
+
+select {
+  width: 225px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin:10px;
+  padding: 15px;
+}
+
+.description{
+  width: 1000px;
+  margin:10px auto;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.Desc {
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  animation: Heading 4s infinite;
+}
+
+.content{
+  font-size: 25px;
+  line-height: 30px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  margin: 10px auto 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.submit {
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+  margin: 0 auto 20px;
+  padding: 10px;
+}
+.submit:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: 0.5s;
+}
+
+@keyframes Heading {
+  0% {
+    color: #fc8458;
+  }
+  20%{
+    color: #ffe53b;
+  }
+  40%{
+    color: #9cfc58;
+  }
+  60% {
+    color: #ff9d00;
+  }
+  80%{
+    color: #ff7afb;
+  }
+  100% {
+    color: #fd5f7c;
+  }
+}
+
+@keyframes Result {
+  
+}
+
+.Result{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  margin: 20px 100px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.answer{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family:'Open Sans', sans-serif;
+  cursor: default;
+  animation: Heading 1s infinite;
+}
+
+.footer{
+  text-align: center;
+  margin: 10px auto 0px;
+  color: white;
+
+}
+
+.hint{
+  font-size: 30px;
+  animation: Heading 1s infinite;
+  text-align: center;
+}
+
+@media (min-width:375px) and (max-width:425px){
+
+  body{
+    
+    background-repeat:no-repeat;
+  }
+
+  .description{
+    width: auto;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  .card{
+    width: 300px;
+    margin: auto;
+  }
+}
+
+@media (min-width:750) and (max-width:1000px){
+  .content{
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .card{
+    margin: auto;
+  }
+}

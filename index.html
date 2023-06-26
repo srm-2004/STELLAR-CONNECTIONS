@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1 class="title" id="tit">Stellar Connection</h1>
+      </div>
+      <div class="description">
+        <h1 class="Desc">Description :-</h1>
+        <p class="content">
+          Stellar Connections is an innovative online platform that helps
+          individuals find their ideal partners based on their zodiac signs.
+          Harnessing the power of astrology, our website offers a unique and
+          personalized matchmaking experience. By inputting your birth date and
+          zodiac sign, you can explore a vast database of potential matches
+          whose zodiac signs complement and harmonize with yours. Discover the
+          cosmic connections and deepen your understanding of compatibility as
+          you navigate through profiles, read compatibility insights, and
+          explore the fascinating world of astrological pairings. Whether you're
+          seeking love, friendship, or companionship, Stellar Connections is
+          your gateway to finding meaningful connections that align with the
+          stars."
+        </p>
+      </div>
+      <div class="card">
+        <input type="text" placeholder="Enter your name" id="name" />
+        <input
+          type="number"
+          min="0"
+          max="99"
+          placeholder="Enter your age"
+          id="age"
+        />
+        <input
+          type="number"
+          min="1"
+          max="31"
+          placeholder="Enter your date of birth"
+          id="dob"
+        />
+        <select name="Zodiac" id="Zodiac">
+          <option value="" disabled selected hidden>
+            Enter your Zodiac Sign
+          </option>
+          <option value="Aries">Aries/Mesham</option>
+          <option value="Taurus">Taurus/Rishabham</option>
+          <option value="Gemini">Gemini/Midhunam</option>
+          <option value="Cancer">Cancer/Kadgam</option>
+          <option value="Leo">Leo/Simham</option>
+          <option value="Virgo">Virgo/Kanni</option>
+          <option value="Libra">Libra/Thulam</option>
+          <option value="Scorpio">Scorpio/Viruchgam</option>
+          <option value="Sagittarius">Sagittarius/Dhanushu</option>
+          <option value="Capricon">Capricon/Magaram</option>
+          <option value="Aquarius">Aquarius/Kumbham</option>
+          <option value="Pisces">Pisces/Meenam</option>
+        </select>
+        <select name="Gender" id="Gender">
+          <option value="" disabled selected hidden>Enter your Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <button class="submit" id="btn">Submit</button>
+      </div>
+      <div class="Result">
+
+        <h1 class="answer" id="Sol">ENTER THE DETAILS AND WAIT FOR THE ANSWER</h1>
+        <h1 class="hint"></h1>
+    </div>
+      <div class="footer">
+        <p class="bottom">@copyrights Sky-Dive</p>
+        <span>Founders:- Sanjay Karthik and Manikandan</span>
+      </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+  </body>
+</html>
