@@ -186,3 +186,46 @@ select {
     margin: 20px auto;
   }
 }
+
+@media (min-width:320px) and (max-width:360px){
+
+  .description{
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    width: auto;
+    margin: auto;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 10px auto 30px;
+  }
+
+  .answer {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: default;
+    animation: Heading 1s infinite;}
+
+    .Result {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      margin: 20px auto;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      width: 200px;
+    }
+}
